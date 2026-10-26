@@ -6,6 +6,27 @@ const STORAGE='olfactory-carnival-sheet-v3';
 let collection=[],eligible=[],source='Not loaded',lastDraw='',rotation=0,spinning=false,mood='all',mode='strange',pair=[null,null],busy=false,configuredUrl='',siteDefaultUrl='',backupNotes=new Map();
 const keywords={dark:['oud','incense','resin','smok','tobacco','frankincense','myrrh','amber','labdanum','copal','burnt'],marine:['salt','sea','marine','ocean','mineral','rain','aquatic','wet','stone','coastal','ambergris'],floral:['rose','jasmine','floral','flower','tuberose','iris','violet','ylang','orange blossom','magnolia','lily'],green:['green','moss','leaf','leaves','forest','cedar','vetiver','pine','grass','herbal','earth','wood','patchouli'],sweet:['fruit','berry','honey','vanilla','apple','pear','sweet','tonka','coconut','caramel','fig','plum'],spice:['saffron','spice','spicy','pepper','cinnamon','ginger','cardamom','clove','nutmeg'],leather:['leather','suede','musk','animalic','civet','skin','castoreum','ambergris']};
 const ALL_TYPES=['bottle','travel','sample','attar'];
+const ART_STYLES=['teal','garnet','amber','jade','midnight','rose'];
+let galleryArt=[],previousSpinArt=null,previousPoisonArt=null,pairArt=[null,null];
+function shuffleArt(input){
+ const a=input.slice();
+ for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}
+ return a;
+}
+function bottleDeck(n){
+ const deck=[];
+ while(deck.length<n){const group=shuffleArt(ART_STYLES);
+  if(deck.length && group[0]===deck[deck.length-1]){const alt=group.findIndex((x,i)=>i>0&&x!==deck[deck.length-1]);[group[0],group[alt]]=[group[alt],group[0]];}
+  deck.push(...group);
+ }
+ return deck.slice(0,n);
+}
+function freshBottle(excluded=[]){
+ const candidates=ART_STYLES.filter(style=>!excluded.includes(style));
+ const options=candidates.length?candidates:ART_STYLES;
+ return options[Math.floor(Math.random()*options.length)];
+}
+
 function esc(s){return tidy(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function key(r){return (r.house+'|'+r.fragrance).toLocaleLowerCase();}
 function dedupe(rows){const seen=new Map;rows.forEach(r=>{if(r.house&&r.fragrance)seen.set(key(r),r)});return [...seen.values()];}
@@ -28,26 +49,65 @@ function typeFor(r){const s=r.type.toLowerCase();if(/attar|oil/.test(s))return '
 function allowedTypes(){return new Set([...document.querySelectorAll('[data-type]')].filter(x=>x.checked).map(x=>x.dataset.type));}
 function updateEligibility(){eligible=collection.slice();$('wheel-eligible').textContent=eligible.length;renderCollection();if(eligible.length===0){$('wheel-status').textContent='No fragrances are available. Check your connection.';}}
 function setLight(good){['connection-light','settings-light'].forEach(id=>$(id).classList.toggle('good',good));}
-function setCollection(rows,label){if(!rows.length)throw Error('No fragrances were found.');collection=dedupe(rows);source=label;setLight(label==='Live Google Sheet');$('source-status').textContent=label;$('connection-detail').textContent=`${collection.length} distinct fragrances available.`;$('top-count').textContent=`${collection.length} fragrances`;$('data-count').textContent=collection.length;if(label==='Live Google Sheet')$('last-refresh').textContent=new Date().toLocaleString([],{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});updateEligibility();renderCollection();$('wheel-status').textContent='The wheel is ready.';}
-function renderCollection(){const q=tidy($('search').value).toLowerCase(),house=$('house-filter').value;const prev=house;const houses=[...new Set(collection.map(r=>r.house))].sort((a,b)=>a.localeCompare(b));$('house-filter').replaceChildren(new Option('All houses',''),...houses.map(h=>new Option(h,h)));$('house-filter').value=houses.includes(prev)?prev:'';const found=collection.filter(r=>(!house||r.house===house)&&(r.house+' '+r.fragrance+' '+r.carnivalLine+' '+r.keyNotes+' '+r.accords+' '+r.impressions).toLowerCase().includes(q));$('collection-summary').textContent=`Showing ${found.length} of ${collection.length} fragrances`;$('collection-items').innerHTML=found.map(r=>`<article class="collection-item panel">${bottleArt(r,true)}<small>${esc(r.house)}</small><h3>${esc(r.fragrance)}</h3>${details(r)}</article>`).join('')||'<div class="panel padded">No fragrances matched your search.</div>';}
+function setCollection(rows,label){if(!rows.length)throw Error('No fragrances were found.');collection=dedupe(rows);galleryArt=bottleDeck(collection.length);source=label;setLight(label==='Live Google Sheet');$('source-status').textContent=label;$('connection-detail').textContent=`${collection.length} distinct fragrances available.`;$('top-count').textContent=`${collection.length} fragrances`;$('data-count').textContent=collection.length;if(label==='Live Google Sheet')$('last-refresh').textContent=new Date().toLocaleString([],{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});updateEligibility();renderCollection();$('wheel-status').textContent='The wheel is ready.';}
+function renderCollection(){const q=tidy($('search').value).toLowerCase(),house=$('house-filter').value;const prev=house;const houses=[...new Set(collection.map(r=>r.house))].sort((a,b)=>a.localeCompare(b));$('house-filter').replaceChildren(new Option('All houses',''),...houses.map(h=>new Option(h,h)));$('house-filter').value=houses.includes(prev)?prev:'';const found=collection.filter(r=>(!house||r.house===house)&&(r.house+' '+r.fragrance+' '+r.carnivalLine+' '+r.keyNotes+' '+r.accords+' '+r.impressions).toLowerCase().includes(q));$('collection-summary').textContent=`Showing ${found.length} of ${collection.length} fragrances`;$('collection-items').innerHTML=found.map((r,i)=>`<article class="collection-item panel">${bottleArt(r,true,galleryArt[i]||ART_STYLES[i%ART_STYLES.length])}<small>${esc(r.house)}</small><h3>${esc(r.fragrance)}</h3>${details(r)}</article>`).join('')||'<div class="panel padded">No fragrances matched your search.</div>';}
 function pick(list,exclude=[]){const used=new Set(exclude.map(x=>x&&key(x)));const candidates=list.filter(r=>!used.has(key(r)));return candidates.length?candidates[Math.floor(Math.random()*candidates.length)]:null;}
 function description(r){return r.carnivalLine||r.keyNotes||'No description recorded yet.';}
 function details(r){return `<p class="card-line">${esc(description(r))}</p>${r.accords?`<div class="accord-chips">${r.accords.split(',').map(x=>`<span>${esc(x.trim())}</span>`).join('')}</div>`:''}${r.keyNotes?`<details class="notes-disclosure"><summary>Explore the notes</summary><p>${esc(r.keyNotes)}</p></details>`:''}${r.impressions?`<p class="personal"><em>YOUR IMPRESSION · ${esc(r.impressions)}</em></p>`:''}`;}
 
-function bottleArt(r,compact=false){
- // Reusable complete, non-branded bottle art. No brand-specific assets or uploads required.
- const accords=accordSet(r);
- let name='midnight';
- if(accords.has('marine/mineral'))name='teal';
- else if(accords.has('green/earthy'))name='jade';
- else if(accords.has('floral'))name='rose';
- else if(accords.has('fruity')||accords.has('sweet/gourmand'))name='garnet';
- else if(accords.has('spicy'))name='amber';
- return `<div class="bottle-stage${compact?' compact':''}"><img class="bottle-image" src="${ART_BOTTLES[name]}" alt="Art Nouveau decorative perfume flacon" loading="lazy" decoding="async" /></div>`;
+function bottleArt(r,compact=false,style){
+ // Reusable, generic illustrated bottles. The artwork is intentionally
+ // unrelated to manufacturer packaging or accord classification.
+ const bottle=(style&&ART_BOTTLES[style])?style:freshBottle();
+ return `<div class="bottle-stage${compact?' compact':''}"><img class="bottle-image" src="${ART_BOTTLES[bottle]}" alt="" aria-hidden="true" loading="lazy" decoding="async" /></div>`;
 }
-function fragranceCard(r){return `<div class="display-fragrance">${bottleArt(r)}<small class="display-house">${esc(r.house)}</small><h3>${esc(r.fragrance)}</h3>${details(r)}</div>`;}
+function fragranceCard(r,style){return `<div class="display-fragrance">${bottleArt(r,false,style)}<small class="display-house">${esc(r.house)}</small><h3>${esc(r.fragrance)}</h3>${details(r)}</div>`;}
 function showView(id){document.querySelectorAll('.view').forEach(el=>el.classList.toggle('active',el.id===id));document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===id));window.scrollTo({top:0,behavior:'instant'});}
-function spin(){if(spinning)return;if(!eligible.length){$('wheel-status').textContent='No fragrances are available. Check your connection.';return;}spinning=true;$('spin-btn').disabled=true;$('wheel-result').classList.add('hidden');$('wheel-status').textContent='The wheel is turning…';let selected=pick(eligible,eligible.length>1?eligible.filter(r=>key(r)===lastDraw):[]);rotation+=360*(5+Math.floor(Math.random()*3));$('wheel-face').style.transform=`rotate(${rotation}deg)`;setTimeout(()=>{lastDraw=key(selected);spinning=false;$('spin-btn').disabled=false;$('wheel-status').textContent='Fortune has spoken.';$('wheel-result').innerHTML='<p class="eyebrow">YOUR FRAGRANCE</p>'+fragranceCard(selected);$('wheel-result').classList.remove('hidden');},4200);}
+function spin(){
+ if(spinning)return;
+ if(!eligible.length){$('wheel-status').textContent='No fragrances are available. Check your connection.';return;}
+ spinning=true;
+ const button=$('spin-btn'),wheel=$('wheel-face');
+ button.disabled=true;
+ $('wheel-result').classList.add('hidden');
+ $('wheel-status').textContent='The wheel is turning…';
+ const excluded=eligible.length>1?eligible.filter(r=>key(r)===lastDraw):[];
+ const selected=pick(eligible,excluded)||pick(eligible);
+ const artwork=freshBottle(previousSpinArt?[previousSpinArt]:[]);
+ const turns=6+Math.floor(Math.random()*3);
+ const reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+ const duration=reduced?1400:3900;
+ let finished=false;
+ function finish(){
+   if(finished)return;finished=true;
+   // Resetting a full number of turns preserves the original upright face.
+   wheel.style.transition='none';
+   wheel.style.transform='rotate(0deg)';
+   lastDraw=key(selected);previousSpinArt=artwork;
+   $('wheel-result').innerHTML='<p class="eyebrow">YOUR FRAGRANCE</p>'+fragranceCard(selected,artwork);
+   $('wheel-result').classList.remove('hidden');
+   $('wheel-status').textContent='Fortune has spoken.';
+   button.disabled=false;spinning=false;
+ }
+ if(wheel.animate){
+   try{
+     wheel.getAnimations().forEach(a=>a.cancel());
+     wheel.style.transition='none';
+     wheel.style.transform='rotate(0deg)';
+     const anim=wheel.animate([
+       {transform:'rotate(0deg)'},{transform:`rotate(${360*turns}deg)`}
+     ],{duration,easing:'cubic-bezier(.11,.68,.16,1)',iterations:1,fill:'none'});
+     anim.addEventListener('finish',finish,{once:true});
+     anim.addEventListener('cancel',finish,{once:true});
+     return;
+   }catch(e){ /* Use transition fallback below. */ }
+ }
+ wheel.style.transition='none';wheel.style.transform='rotate(0deg)';
+ void wheel.offsetWidth; // Commit upright starting state before animating.
+ wheel.style.transition=`transform ${duration}ms cubic-bezier(.11,.68,.16,1)`;
+ requestAnimationFrame(()=>{requestAnimationFrame(()=>{wheel.style.transform=`rotate(${360*turns}deg)`;});});
+ setTimeout(finish,duration+60);
+}
 const moodAccords={dark:['oud','incense','smoky'],marine:['marine/mineral'],floral:['floral'],green:['green/earthy','woody'],sweet:['sweet/gourmand','fruity'],spice:['spicy'],leather:['leather/musk']};
 const moodLabels={dark:'dark resins',marine:'marine minerality',floral:'florals',green:'green woods',sweet:'fruit and sweetness',spice:'warm spice',leather:'leather and musk'};
 function accordSet(r){return new Set(tidy(r.accords).toLowerCase().split(',').map(x=>x.trim()).filter(Boolean));}
@@ -55,7 +115,7 @@ function matchingAccords(a,b){const aa=accordSet(a),bb=accordSet(b);return [...a
 function score(r,theme){const a=accordSet(r);const explicit=(moodAccords[theme]||[]).filter(x=>a.has(x)).length;
  if(r.accords)return explicit*4;
  const s=(r.keyNotes+' '+r.carnivalLine).toLowerCase();return (keywords[theme]||[]).reduce((n,w)=>n+(s.includes(w)?1:0),0);}
-function drawPoison(){let list=eligible;if(mood!=='all')list=eligible.filter(r=>score(r,mood)>0);if(!list.length){$('poison-status').textContent='No matches were found for this mood. Try another mood or refresh the collection.';return;}const r=pick(list);$('poison-result').innerHTML=fragranceCard(r);$('poison-status').textContent=`Selected from ${list.length} eligible ${mood==='all'?'fragrances':moodLabels[mood]+' matches'}.`;}
+function drawPoison(){let list=eligible;if(mood!=='all')list=eligible.filter(r=>score(r,mood)>0);if(!list.length){$('poison-status').textContent='No matches were found for this mood. Try another mood or refresh the collection.';return;}const r=pick(list);const art=freshBottle(previousPoisonArt?[previousPoisonArt]:[]);previousPoisonArt=art;$('poison-result').innerHTML=fragranceCard(r,art);$('poison-status').textContent=`Selected from ${list.length} eligible ${mood==='all'?'fragrances':moodLabels[mood]+' matches'}.`;}
 function similarities(a,b){return matchingAccords(a,b);}
 function pairCandidates(base,selectionMode){const rest=eligible.filter(r=>key(r)!==key(base));if(selectionMode==='chaos'||!rest.length)return rest;
  const bs=accordSet(base),scored=rest.map(r=>{const shared=matchingAccords(base,r).length,unique=[...accordSet(r)].filter(x=>!bs.has(x)).length;return {r,shared,unique};});
@@ -65,13 +125,20 @@ function pairCandidates(base,selectionMode){const rest=eligible.filter(r=>key(r)
   const maxUnique=Math.max(...scored.map(x=>x.unique));return scored.filter(x=>x.unique===maxUnique).map(x=>x.r);}
  return rest;
 }
-function renderPair(){[0,1].forEach(i=>{$('pair-'+(i?'two':'one')).innerHTML=pair[i]?`${bottleArt(pair[i],true)}<small class="display-house">${esc(pair[i].house)}</small><h3>${esc(pair[i].fragrance)}</h3>${details(pair[i])}`:`<div class="bottle-symbol">✧</div><h3>A mystery</h3><p>Awaiting the draw...</p>`;});
+function renderPair(){[0,1].forEach(i=>{$('pair-'+(i?'two':'one')).innerHTML=pair[i]?`${bottleArt(pair[i],true,pairArt[i])}<small class="display-house">${esc(pair[i].house)}</small><h3>${esc(pair[i].fragrance)}</h3>${details(pair[i])}`:`<div class="bottle-symbol">✧</div><h3>A mystery</h3><p>Awaiting the draw...</p>`;});
  if(pair[0]&&pair[1]){const shared=similarities(pair[0],pair[1]),a=accordSet(pair[0]),b=accordSet(pair[1]);const uniqueA=[...a].filter(x=>!b.has(x)),uniqueB=[...b].filter(x=>!a.has(x));
  const bridge=shared.length?`A potential bridge is ${shared.slice(0,2).join(' and ')}.`:'There is no accord-family overlap recorded.';
  const contrast=uniqueA.length&&uniqueB.length?` ${pair[0].fragrance} brings ${uniqueA.slice(0,2).join(' and ')}, while ${pair[1].fragrance} adds ${uniqueB.slice(0,2).join(' and ')}.`:'';
  const theory=mode==='chaos'?'No compatibility filter was used. This is a true chance encounter.':mode==='love'?`The two fragrances share ${shared.length} accord ${shared.length===1?'family':'families'}. ${bridge}${contrast}`:`An experiment in contrast. ${bridge}${contrast}`;
  $('pair-analysis').innerHTML='<p class="eyebrow">THE ALCHEMIST\'S THEORY</p><p>'+esc(theory)+'</p><p class="micro">Based on the inferred accord families in Olfactory Carnival v3; not a prediction of skin chemistry. Test each lightly first.</p>';}}
-function drawPair(){if(eligible.length<2){$('pair-status').textContent='At least two eligible fragrances are needed.';return;}const lockA=$('lock-one').checked&&!!pair[0],lockB=$('lock-two').checked&&!!pair[1];if(lockA&&lockB){$('pair-status').textContent='Both cards are locked. Unlock one to reroll.';return;}if(!lockA&&!lockB){pair[0]=pick(eligible);pair[1]=pick(pairCandidates(pair[0],mode),[]);}else if(lockA){pair[1]=pick(pairCandidates(pair[0],mode),pair[1]?[pair[1]]:[] )||pick(pairCandidates(pair[0],mode));}else{pair[0]=pick(pairCandidates(pair[1],mode),pair[0]?[pair[0]]:[])||pick(pairCandidates(pair[1],mode));}renderPair();$('pair-draw').textContent='✧  REROLL UNLOCKED';$('pair-status').textContent='Lock either fragrance to keep it for your next draw.';}
+function drawPair(){if(eligible.length<2){$('pair-status').textContent='At least two eligible fragrances are needed.';return;}const lockA=$('lock-one').checked&&!!pair[0],lockB=$('lock-two').checked&&!!pair[1];if(lockA&&lockB){$('pair-status').textContent='Both cards are locked. Unlock one to reroll.';return;}if(!lockA&&!lockB){pair[0]=pick(eligible);pair[1]=pick(pairCandidates(pair[0],mode),[]);}else if(lockA){pair[1]=pick(pairCandidates(pair[0],mode),pair[1]?[pair[1]]:[] )||pick(pairCandidates(pair[0],mode));}else{pair[0]=pick(pairCandidates(pair[1],mode),pair[0]?[pair[0]]:[])||pick(pairCandidates(pair[1],mode));}if(!lockA){pairArt[0]=freshBottle([pairArt[0],lockB?pairArt[1]:null].filter(Boolean));}
+ if(!lockB){pairArt[1]=freshBottle([pairArt[1],pairArt[0]].filter(Boolean));}
+ // Guarantee distinct decorative bottles even after lock/reveal interactions.
+ if(pairArt[0]===pairArt[1]){
+   if(!lockB)pairArt[1]=freshBottle([pairArt[0]]);
+   else if(!lockA)pairArt[0]=freshBottle([pairArt[1]]);
+ }
+ renderPair();$('pair-draw').textContent='✧  REROLL UNLOCKED';$('pair-status').textContent='Lock either fragrance to keep it for your next draw.';}
 function sheetCSV(url){
  url=tidy(url);if(!url)throw Error('Paste a Google Sheets URL first.');
  let u;try{u=new URL(url);}catch(e){throw Error('That does not look like a complete URL.');}
