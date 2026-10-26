@@ -218,3 +218,8 @@ transition:transform 4.2s cubic-bezier(.15,.7,.12,1);}
 /* Final image-size pass */
 @media(min-width:681px){.collection-item .bottle-stage.compact{height:210px}}
 @media(max-width:680px){.collection-item .bottle-stage.compact{height:146px}}
+
+/* v4.6: frame-animated interactive wheel; visual art remains complete */
+.wheel-face { cursor:pointer; touch-action:manipulation; transform-origin:center center; will-change:transform; }
+.wheel-face:focus-visible{outline:3px solid #e6c27d;outline-offset:7px;}
+.wheel-face[aria-busy="true"]{cursor:wait;}
