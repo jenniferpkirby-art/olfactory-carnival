@@ -1,35 +1,27 @@
-# The Olfactory Carnival — v1.1.0
+# The Olfactory Carnival · v2.0
 
-A mobile-first, Belle Époque fragrance roulette. No build step, database, or paid hosting required.
+A Belle Époque perfume roulette hosted free on GitHub Pages. No build step or paid service required.
 
-## Publish with GitHub Pages
-1. Create a public repository named `olfactory-carnival` at https://github.com/new.
-2. Upload **all six files** from this folder to the repository root (`index.html`, `style.css`, `app.js`, `starter.json`, `icon.svg`, `manifest.webmanifest`). You may also upload this README.
-3. Commit changes.
-4. Go to repository **Settings → Pages**.
-5. Under **Build and deployment**, select **Deploy from a branch**. Choose **main** and **/(root)**, then **Save**.
-6. After GitHub publishes it, open `https://YOUR-USERNAME.github.io/olfactory-carnival/`.
-7. On Android Chrome, open the menu and select **Add to Home screen** or **Install app** if offered.
+## Publish the new version
 
-## How to use
-- **Spin the Wheel** picks a random full bottle by default and displays its **name prominently in a theatrical reveal overlay** after the spin. Close the overlay to see the full result card.
-- **Wild Card** favors non-favorites (not an algorithmic recommendation).
-- Filter by **Family** and **Mood**, or include samples.
-- **My Cabinet** lets you search, favorite, and add entries.
-- **Settings** lets you import CSV, export a JSON backup, and restore it.
+Upload **all files** in this folder to the root of your existing `olfactory-carnival` GitHub repository, replacing same-named files. `index.html` and `collection.json` must both be in the repository root. Commit changes. GitHub Pages redeploys automatically. Allow a minute, then hard-refresh the site.
 
-## Your data and privacy
-The included list is only a small **starter selection**, not your complete fragrance database. It contains user-provided impressions in abbreviated form.
-Manual additions and CSV imports are saved in **localStorage** in that browser on that device. They do **not** automatically sync across devices or update your GitHub repository. Clearing browser site data may erase local additions, so export a JSON backup periodically.
-Anyone can view the starter data published to the public GitHub Pages site. Imported notes stay on the device unless you explicitly publish them.
+## Data included
 
-## Import CSV
-Export your master workbook's Collection tab as CSV, ideally with headers `House,Fragrance,Family,Mood,Kind,Notes`. Common variants such as Brand/Name/Type are also recognized. Import merges by House + Fragrance. If your workbook has different headers, adapt the CSV or ask for a custom import mapping.
-This app does not parse XLSX directly.
+`collection.json` contains 67 distinct **physically owned** fragrances extracted from the `Collection` tab of `Fragrance_Master v90.xlsx` where Have/Don't Have is `*Have`. Seven `On order` / `*On order` records were deliberately excluded pending receipt. The user can add them to the Google Sheet when received. Original notes and personal impressions are retained. Samples, wishlists and research tabs are excluded.
+
+## Connect a Google Sheet (free)
+
+1. Upload `Olfactory_Carnival_Google_Sheets_Collection.csv` into Google Sheets (File > Import > Upload). Keep columns `House`, `Fragrance`, `Notes / Accords`, `My Impressions`. Add new fragrance rows there; all rows are eligible.
+2. In the Google Sheet, choose **File > Share > Publish to web**, select the specific Collection sheet, choose **Comma-separated values (.csv)**, then **Publish**. The published sheet is public. Copy the **published CSV URL** (not the editing link).
+3. Edit `config.json` in the GitHub repository using the pencil icon. Set `googleSheetCsvUrl` to the published CSV URL, preserving JSON quotes, then commit. Example: `{ "googleSheetCsvUrl": "https://docs.google.com/spreadsheets/d/e/EXAMPLE/pub?output=csv" }`.
+4. Refresh the app. It reads the published sheet at load; use **The Ledger > Refresh Collection** to request updates. Google publication may be cached briefly.
+
+The Ledger also allows pasting a CSV URL to test without editing GitHub, but that preview address is stored in the browser and may be cleared. The permanent `config.json` setting is preferable and survives browser clearing and switching devices. The included `collection.json` remains a fallback when the Google Sheet is unavailable.
 
 ## Notes
-Google Fonts requires an internet connection; local fallback fonts are provided.
-The wheel is decorative; the selection is uniformly random among the eligible fragrances.
 
-## Updating an existing GitHub Pages installation
-Upload the new files to the **same repository**, replacing the previous versions, and commit. GitHub Pages will republish automatically. You may need to refresh the site in Chrome. Locally added fragrances are stored in the same browser under the same site address and should remain available when code is updated, but back them up first in Settings.
+- The roulette chooses any row from the collection, without filters or sample inventory. The next spin avoids the immediate previous result when possible.
+- Only the collection data is public; do not publish private information in the sheet.
+- The app reads Google Sheets directly; no paid API or backend.
+- The Google Sheet is the source of truth once connected. Updating the sheet does not require editing the app files.
