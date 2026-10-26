@@ -1,0 +1,16 @@
+{
+  "name": "The Olfactory Carnival",
+  "short_name": "Olfactory Carnival",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#081515",
+  "theme_color": "#102a29",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

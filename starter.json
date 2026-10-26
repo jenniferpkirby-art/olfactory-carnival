@@ -1,0 +1,98 @@
+[
+  {
+    "house": "Amouage",
+    "name": "Lineage",
+    "family": "Mineral",
+    "mood": "Mysterious",
+    "kind": "Bottle",
+    "notes": "Mineral, resinous, elemental. A temple-by-the-sea feeling."
+  },
+  {
+    "house": "Amouage",
+    "name": "Guidance 46",
+    "family": "Floral",
+    "mood": "Seductive",
+    "kind": "Bottle",
+    "notes": "Opulent, richly textured, and powerful."
+  },
+  {
+    "house": "Andrea Maack",
+    "name": "Coven",
+    "family": "Green",
+    "mood": "Mysterious",
+    "kind": "Bottle",
+    "notes": "An earthy, atmospheric forest."
+  },
+  {
+    "house": "Aedes de Venustas",
+    "name": "Café Tabac",
+    "family": "Smoky",
+    "mood": "Comforting",
+    "kind": "Bottle",
+    "notes": "Tobacco develops toward cocoa."
+  },
+  {
+    "house": "Kerosene",
+    "name": "Blackmail",
+    "family": "Smoky",
+    "mood": "Dark & Smoky",
+    "kind": "Bottle",
+    "notes": "Dark smoke and char."
+  },
+  {
+    "house": "Clue",
+    "name": "With the Candlestick",
+    "family": "Smoky",
+    "mood": "Strange & Unusual",
+    "kind": "Bottle",
+    "notes": "An unusual smoky composition."
+  },
+  {
+    "house": "Melloculab",
+    "name": "Black Omen",
+    "family": "Oud",
+    "mood": "Seductive",
+    "kind": "Bottle",
+    "notes": "Honey emerges later on my skin. Sweet, but not too cloying."
+  },
+  {
+    "house": "Neandertal",
+    "name": "Light",
+    "family": "Green",
+    "mood": "Sophisticated",
+    "kind": "Bottle",
+    "notes": "Gentle out of the bottle but surprisingly substantive and persistent on skin. Phenomenal."
+  },
+  {
+    "house": "Regalien",
+    "name": "Turkuaz",
+    "family": "Aquatic",
+    "mood": "Fresh & Clean",
+    "kind": "Bottle",
+    "notes": "Metallic, marine, ambergris."
+  },
+  {
+    "house": "Arabian Oud",
+    "name": "Resala",
+    "family": "Oud",
+    "mood": "Exotic",
+    "kind": "Bottle",
+    "notes": "A powerful, long-lasting fragrance."
+  },
+  {
+    "house": "D’ORSAY",
+    "name": "Holy Berry",
+    "family": "Gourmand",
+    "mood": "Seductive",
+    "kind": "Bottle",
+    "notes": "Tangy, sweet, milky berry character."
+  },
+  {
+    "house": "Blend Oud",
+    "name": "Velvet Smoke",
+    "family": "Smoky",
+    "mood": "Dark & Smoky",
+    "kind": "Bottle",
+    "notes": "Smoky, dark, and rich."
+  }
+]
