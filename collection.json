@@ -2,403 +2,657 @@
   {
     "house": "Acqua di Parma",
     "fragrance": "Gelsomino a Freddo",
-    "notes": "Pink pepper, lemon, artemisia; jasmine, iris, black tea; guaiac wood, patchouli, nagarmotha. Accords: white floral, citrus, tea, powdery, woody.",
-    "impressions": "Full bottle received 10/22/2026. Beautiful black tea note, which I'll probably pick up more when I wear it without a bunch of other stuff on. Really fresh and wonderful; I can see why Acqua di Parma is a classic."
+    "carnivalLine": "Jasmine and black tea, fresh and beautifully composed.",
+    "keyNotes": "Pink pepper, lemon, artemisia; jasmine, iris, black tea; guaiac wood, patchouli, nagarmotha",
+    "accords": "woody, floral, green/earthy, spicy, citrus",
+    "impressions": "Fresh, beautiful black tea; classic elegance."
   },
   {
     "house": "Aedes de Venustas",
     "fragrance": "Café Tabac",
-    "notes": "Tobacco, burnt sugar, birch tar, dates, tonka, labdanum, cacao, vanilla, Peru balsam, beeswax.",
-    "impressions": "Full bottle received October 12, 2026. It is amazing. It is beastly and lives on through the day. Sweet cigar smell gives way to the honey and vanilla in the drydown. I feel like I am at Café Tabac for a fun evening."
+    "carnivalLine": "A sweet cigar at a late-night café; smoke gives way to honey and vanilla.",
+    "keyNotes": "Tobacco, burnt sugar, birch tar, dates, tonka, labdanum, cacao, vanilla, Peru balsam, beeswax.",
+    "accords": "smoky, sweet/gourmand",
+    "impressions": "Beastly longevity; sweet cigar evolves into honey and vanilla."
+  },
+  {
+    "house": "Afnan",
+    "fragrance": "Supremacy Collector’s Edition",
+    "carnivalLine": "A bold, polished blend of juicy pineapple, aromatic woods, and smoky amber, with a dark, musky backbone.",
+    "keyNotes": "Pineapple, bergamot, apple, white florals; orange blossom, birch, amber; oakmoss, musk, ambergris.",
+    "accords": "marine/mineral, floral, green/earthy, fruity, leather/musk, citrus",
+    "impressions": ""
   },
   {
     "house": "Ahmed Al Maghribi",
     "fragrance": "Kaaf",
-    "notes": "Fruity, salty aquatic (per 10/13 skin impression).",
-    "impressions": "Tested at Ameer 10/13/2026: very nice, cool fruit against saltwater.\n10/22/2026: Full bottle received. It was on my reinvestigate tier and very inexpensive online, so a low-risk buy, and not really blind since I'd tried it. I like it; I don't know if I love it like the others, but it's quite good. Slightly fruitier and not as sweet as I remembered; I imagine it gets a little sweeter on the drydown."
+    "carnivalLine": "Cool fruit against saltwater, with a surprisingly easygoing charm.",
+    "keyNotes": "Fruity, salty aquatic (per 10/13 skin impression).",
+    "accords": "marine/mineral, fruity",
+    "impressions": "Cool fruit against saltwater; pleasant, slightly fruity, not overly sweet."
   },
   {
     "house": "Amouage",
     "fragrance": "Ashore",
-    "notes": "Cardamom, turmeric, pink pepper; jasmine sambac, solar notes, rose; ambergris, frankincense/olibanum, sandalwood.",
-    "impressions": "Overall: I am getting ocean but with a bit of a dense floral overlay that blankets the spice notes. Drydown gives me more wood. Floral with depth and intrigue, not too cloying. I think it may be too dense to layer."
+    "carnivalLine": "Ocean air beneath a dense floral veil; spice and wood emerge later.",
+    "keyNotes": "Cardamom, turmeric, pink pepper; jasmine sambac, solar notes, rose; ambergris, frankincense/olibanum, sandalwood.",
+    "accords": "incense, marine/mineral, woody, floral, spicy",
+    "impressions": "Dense oceanic florals over spice; woody drydown. Possibly too dense to layer."
   },
   {
     "house": "Amouage",
     "fragrance": "Decision",
-    "notes": "Frankincense, bergamot, myrrh, juniper, Atlas cedar, vanilla.",
-    "impressions": "Overall: Bought the travel size and love it. Full bottle remains on the wishlist. Stunning; has some of Guidance's fruity DNA but is less loud and has a clean fruit lift.\nWear evolution: Very fruity, bright lift; Guidance-family resemblance but quieter. → Remained beautiful enough to buy the travel size."
+    "carnivalLine": "A bright, tangy fruit lift with a quieter echo of Guidance.",
+    "keyNotes": "Frankincense, bergamot, myrrh, juniper, Atlas cedar, vanilla.",
+    "accords": "incense, woody, sweet/gourmand, citrus",
+    "impressions": "Loved: bright, tangy fruit; Guidance-like but quieter."
   },
   {
     "house": "Amouage",
     "fragrance": "Guidance",
-    "notes": "Pear, hazelnut, frankincense; osmanthus, rose, saffron, jasmine sambac; sandalwood, vanilla, Akigalawood, ambergris, labdanum.",
-    "impressions": "Overall: A loud fruity, nutty open but it sucks you in; it really takes over the bubble around you; wood and spice notes are brilliant under this. I get the vanilla too, which softens it but this is not really gourmand. Gourmand-adjacent. The drydown, all of it really works. Big love."
+    "carnivalLine": "Fruity and nutty at full volume, with brilliant woods and spice underneath.",
+    "keyNotes": "Pear, hazelnut, frankincense; osmanthus, rose, saffron, jasmine sambac; sandalwood, vanilla, Akigalawood, ambergris, labdanum.",
+    "accords": "incense, marine/mineral, woody, floral, spicy, fruity, sweet/gourmand",
+    "impressions": "Big love: enveloping fruit and nuts over brilliant woods and spice."
   },
   {
     "house": "Amouage",
     "fragrance": "Guidance 46",
-    "notes": "Rose water, pear, hazelnut, bitter almond, frankincense, pink pepper; rose, osmanthus, saffron, jasmine sambac; sandalwood, Akigalawood, vanilla, ambrette, ambergris, labdanum, Georgywood, cypriol.",
-    "impressions": "Overall: See Guidance but more nutty and gentler since it is extrait. I love it and could layer it. It's a calmer version of the Big Bold Guidance but drydowns are similar. It may be too gentle without a regular Guidance push."
+    "carnivalLine": "Guidance in a softer voice: nuttier, gentler, still unmistakably itself.",
+    "keyNotes": "Rose water, pear, hazelnut, bitter almond, frankincense, pink pepper; rose, osmanthus, saffron, jasmine sambac; sandalwood, Akigalawood, vanilla, ambrette, ambergris, labdanum, Georgywood, cypriol.",
+    "accords": "incense, marine/mineral, woody, floral, spicy, fruity, sweet/gourmand",
+    "impressions": "Loved: gentler, nuttier Guidance; potentially layerable."
   },
   {
     "house": "Amouage",
     "fragrance": "Lineage",
-    "notes": "Sichuan pepper, ginger, Peruvian pepper, saffron; frankincense/olibanum, myrrh, fenugreek; labdanum, benzoin, vetiver, patchouli.",
-    "impressions": "Overall: My favorite signature scent at this time. Mineral, but with wood depth. The pepper is a beautiful open. Unusual for Amouage, gorgeous with an oud resin layer underneath. Very wearable I think of the ocean, of a spa, of temples. Incense plus aquatic. This is the fragrance that really launched the current exploration; despite all the new sampling, it remains a high-water mark for me."
+    "carnivalLine": "Pepper, minerals, incense and sea air: a temple beside the ocean.",
+    "keyNotes": "Sichuan pepper, ginger, Peruvian pepper, saffron; frankincense/olibanum, myrrh, fenugreek; labdanum, benzoin, vetiver, patchouli.",
+    "accords": "incense, woody, green/earthy, spicy",
+    "impressions": "Signature favorite: mineral sea, pepper, temple incense and wood; wonderful over oud oil."
   },
   {
     "house": "Amouage",
     "fragrance": "Overture Woman",
-    "notes": "Brandy, apple, saffron, bergamot; benzoin, myrrh, cinnamon, rose, geranium; leather, frankincense/olibanum, labdanum.",
-    "impressions": "Overall: I like it enough and fell compelled to use it but that beery-hoppy open is not my favorite. Cinnamon is part of the issue too. It calms down nicely and works well enough on my skin but this taught me that boozy might be a risky bet. Could possibly be layered."
+    "carnivalLine": "A challenging hoppy opening that settles into something warmer and more wearable.",
+    "keyNotes": "Brandy, apple, saffron, bergamot; benzoin, myrrh, cinnamon, rose, geranium; leather, frankincense/olibanum, labdanum.",
+    "accords": "incense, floral, spicy, fruity, leather/musk, citrus",
+    "impressions": "Beery, hoppy opening puts me off; improves on skin. Booziness is risky."
   },
   {
     "house": "Amouage",
     "fragrance": "Rose Incense",
-    "notes": "op notes are Olibanum, elemi and Ink; middle notes are Rose Water, Olibanum and Suede; base notes are Myrhh, Sandalwood, Vanilla and Cedar.",
-    "impressions": "Overall: got it in the travel size with Decision just to try it"
+    "carnivalLine": "A rose-and-incense curiosity still waiting for its proper skin test.",
+    "keyNotes": "op notes are Olibanum, elemi and Ink; middle notes are Rose Water, Olibanum and Suede; base notes are Myrhh, Sandalwood, Vanilla and Cedar.",
+    "accords": "incense, woody, floral, sweet/gourmand, leather/musk",
+    "impressions": ""
   },
   {
     "house": "Andrea Maack",
     "fragrance": "Coven",
-    "notes": "Galbanum, clove, cedar, oakmoss, vanilla. Dark green, mossy, woody, earthy/bitter.",
-    "impressions": "Purchased 10/3/2026 after successful skin test. Green → herbal/spicy, lightly witchy; evolves beautifully and feels fully wearable. Purchase decision complete.\n10/8/2026 owner confirmation: Coven is owned and fantastic; a benchmark for distinctive green perfumery, not a prospective purchase."
+    "carnivalLine": "Green, herbal, spicy and just a little witchy; beautiful as it evolves.",
+    "keyNotes": "Galbanum, clove, cedar, oakmoss, vanilla. Dark green, mossy, woody, earthy/bitter.",
+    "accords": "woody, green/earthy, spicy, sweet/gourmand",
+    "impressions": "Fantastic witchy green herbs and spice; evolves beautifully."
   },
   {
     "house": "Anti",
     "fragrance": "Nashi Toro",
-    "notes": "Hinoki, pear, pepper, iris, ambrette, incense, moss, rice-bran absolute.",
-    "impressions": "Full bottle purchased via Facebook group/Marketplace; shipped or shipping as of October 12, 2026. Low projection was noted in prior sampling. A great sleepytime or gym frag.\n10/22/2026: Full bottle received. It's going to be a beautiful sleepytime, light or gym fragrance. It has an Asian-style nuttiness and is so nicely blended; like ELOREA, it echoes the lighter Asian-style fragrances."
+    "carnivalLine": "A quiet, low-projection companion for the gym or the edge of sleep.",
+    "keyNotes": "Hinoki, pear, pepper, iris, ambrette, incense, moss, rice-bran absolute.",
+    "accords": "incense, woody, floral, green/earthy, spicy, fruity",
+    "impressions": "Soft, nutty and beautifully blended; ideal for sleep or gym."
   },
   {
     "house": "Arabian Oud",
     "fragrance": "Mukhalat Nagdy Malaky",
-    "notes": "Turkish rose; sandalwood, saffron; Indian oud, amber.",
-    "impressions": "Overall: Yes to the saffron with some floral and wood notes. Lovely alone or as a base for minerals/lighter. Saffron note is quite prominent and that's a-ok! Very Gulf."
+    "carnivalLine": "Saffron first, with flowers and wood beneath; unapologetically Gulf.",
+    "keyNotes": "Turkish rose; sandalwood, saffron; Indian oud, amber.",
+    "accords": "oud, woody, floral, spicy",
+    "impressions": "Prominent saffron over florals and woods; excellent alone or as a layering base."
   },
   {
     "house": "Arabian Oud",
     "fragrance": "Resala",
-    "notes": "Chocolate, rose petals, saffron, woody/oud character, vanilla; warm spicy, sweet, rosy and leathery facets.",
-    "impressions": "Overall: Sharper spicy woody open with chocolate popping out but not too sweet. Could be polarizing but I find it intriguing and beautiful. It is STATEMENT. Much like NY Oud, I am coming out loud and proud when I wear that. Great for a cooler day; this doesn't say summer to me.\nWear evolution: Sharp opener and chocolate both mellow with wear, but the chocolate never turns into baked-goods/gourmand territory. Becomes even more beautiful and distinctive through the day.\nPerformance: Strong longevity; hangs around and continues to evolve/cook through the day."
+    "carnivalLine": "Spice, wood and a flash of chocolate. A statement, not a whisper.",
+    "keyNotes": "Chocolate, rose petals, saffron, woody/oud character, vanilla; warm spicy, sweet, rosy and leathery facets.",
+    "accords": "smoky, oud, woody, floral, spicy, sweet/gourmand, leather/musk",
+    "impressions": "Dramatic spicy woods and restrained chocolate; striking, evolving cold-weather scent."
   },
   {
     "house": "Arabian Oud",
     "fragrance": "Saffron Oud",
-    "notes": "Saffron; rose, musk; patchouli, oud, amber. On skin the saffron/patchouli/wood structure reads dry, spicy, resinous and slightly camphoraceous.",
-    "impressions": "Overall: Skin test 9/24/2026 at Arabian Oud. A real beauty and a clear winner. Sweet, but the sweetness never takes over: the fragrance stayed sharp, resinous and slightly camphoraceous on skin. The drydown gained definition rather than smoothing into a generic rose-amber oud, and I kept returning to my wrist. Recheck 9/25 confirmed the purchase: still the Arabian Oud winner for me. Compared directly with Oud for Greatness, Saffron Oud's finish has more punch and the sharpness I prefer.\nWear evolution: Beautiful saffron-led opening: warm and sweet, but already carrying a dry spicy edge. → Sharpened as it dried down. Resinous/camphoraceous bite stayed alive over the warmer oud-amber base; unlike Resala, no chocolate effect. Confirmed sharper and more distinctive than Oud for Greatness in the late drydown.\nPerformance: Full skin wear stayed compelling through the drydown; strong enough to retain character and contrast."
+    "carnivalLine": "Sweetness held in check by sharp resin and a camphoraceous edge.",
+    "keyNotes": "Saffron; rose, musk; patchouli, oud, amber. On skin the saffron/patchouli/wood structure reads dry, spicy, resinous and slightly camphoraceous.",
+    "accords": "oud, floral, green/earthy, spicy, leather/musk",
+    "impressions": "A favorite: sharp saffron, resin and camphor with lasting bite."
   },
   {
     "house": "Attar-Emporium",
     "fragrance": "Shamama No 365",
-    "notes": "Warm traditional shamama spices; charila/lichen; choya smoke; sandalwood base.",
-    "impressions": "Overall: Traditional Kannauj shamama — same warm spice-smoke architecture as Shamamatul Amber 2000, with charila and choya smoke in the base. Already purchased, not yet tested."
+    "carnivalLine": "Old-world Kannauj spice and charred smoke; a traditional attar still to explore.",
+    "keyNotes": "Warm traditional shamama spices; charila/lichen; choya smoke; sandalwood base.",
+    "accords": "smoky, woody, green/earthy",
+    "impressions": ""
   },
   {
     "house": "Attar-Emporium",
     "fragrance": "Shamamatul Amber 2000",
-    "notes": "Clove, cinnamon, cardamom, nutmeg; roasted cypriol, spikenard and valerian roots; sandalwood; rose, jasmine, saffron; amber.",
-    "impressions": "Overall: Traditional Kannauj-style shamama with amber — clove, cinnamon, cardamom and nutmeg over roasted cypriol, spikenard and valerian roots, sandalwood base, rose/jasmine/saffron lift."
+    "carnivalLine": "Clove, cardamom and warm roots over smoke, sandalwood and amber.",
+    "keyNotes": "Clove, cinnamon, cardamom, nutmeg; roasted cypriol, spikenard and valerian roots; sandalwood; rose, jasmine, saffron; amber.",
+    "accords": "woody, floral, spicy",
+    "impressions": ""
   },
   {
     "house": "Blend Oud",
     "fragrance": "Hour",
-    "notes": "Top notes are hyacinth and pineapple; middle notes are jasmine, iris and pink pepper; base notes are amber, musk, vanilla, patchouli and vetiver.",
-    "impressions": "BLIND BUY based on my liking for this house's DNA. Full bottle purchased through Mercari and received October 20, 2026. Not yet evaluated on skin."
+    "carnivalLine": "A mysterious Blend Oud acquisition; its character remains to be discovered.",
+    "keyNotes": "Top notes are hyacinth and pineapple; middle notes are jasmine, iris and pink pepper; base notes are amber, musk, vanilla, patchouli and vetiver.",
+    "accords": "woody, floral, green/earthy, spicy, fruity, sweet/gourmand, leather/musk",
+    "impressions": ""
   },
   {
     "house": "Blend Oud",
     "fragrance": "Velvet Smoke",
-    "notes": "Raspberry, mixed berries, pink pepper; saffron, osmanthus, jasmine, rose; tobacco, amber, musk, labdanum.",
-    "impressions": "Overall: Purchased 9/20/2026. The boozy-looking opening resolves quickly into a much more interesting wood/fruit/smoke structure; the development was compelling enough to buy.\nWear evolution: Bright dark-fruit opening with a boozy impression. → Turns woody, smoky and fruit-laced rather than gourmand.\nPerformance: Full wear after purchase actually amazing"
+    "carnivalLine": "Dark fruit turns to wood and smoke after a fleeting boozy opening.",
+    "keyNotes": "Raspberry, mixed berries, pink pepper; saffron, osmanthus, jasmine, rose; tobacco, amber, musk, labdanum.",
+    "accords": "floral, spicy, fruity, leather/musk",
+    "impressions": "Boozy dark fruit quickly turns to compelling wood and smoke."
   },
   {
     "house": "Bond No. 9",
     "fragrance": "Chinatown",
-    "notes": "Peach blossom, bergamot; tuberose, gardenia, orange blossom, peony; cardamom, vanilla, sandalwood, guaiac wood, patchouli, cedar.",
-    "impressions": "Overall: I like the spicy oriental floral take on this a lot. It's got fruit and wood too. It really lasts for a while and is a lovely counterpoint to other things I have. No oud! But arresting. Slightly heavy for summer but you can get away with it. I think it is very wearble, even to the office."
+    "carnivalLine": "A richly spiced floral with fruit and wood; arresting without any oud.",
+    "keyNotes": "Peach blossom, bergamot; tuberose, gardenia, orange blossom, peony; cardamom, vanilla, sandalwood, guaiac wood, patchouli, cedar.",
+    "accords": "woody, floral, green/earthy, spicy, fruity, sweet/gourmand, citrus",
+    "impressions": "Long-lasting spicy fruity-floral woods; wearable and distinctive."
   },
   {
     "house": "Bond No. 9",
     "fragrance": "Eau de New York",
-    "notes": "Petitgrain, bergamot, grapefruit, green/watery notes, mandarin; neroli, lemon verbena, basil, jasmine, gardenia, lily, cyclamen; oakmoss, vetiver, musk, white woods.",
-    "impressions": "Overall: More dude. I liked it in the beginning but it feels more manly now than I want to take on."
+    "carnivalLine": "A sharper, more traditionally masculine mood than expected.",
+    "keyNotes": "Petitgrain, bergamot, grapefruit, green/watery notes, mandarin; neroli, lemon verbena, basil, jasmine, gardenia, lily, cyclamen; oakmoss, vetiver, musk, white woods.",
+    "accords": "woody, floral, green/earthy, fruity, leather/musk, citrus",
+    "impressions": "Initially appealing, but now reads too masculine for me."
   },
   {
     "house": "Bond No. 9",
     "fragrance": "New York Oud",
-    "notes": "Plum, saffron, orange; rose, agarwood (oud), patchouli, orris; musk, white honey, vetiver.",
-    "impressions": "Overall: I actually really love this. The open screams and slaps you around but then it settles down rich and wood and rose. Just amazing in the middle and drydown. Also STATEMENT--sharp open like Resala but even more so. Very much a cold weather wear.\n10/8/2026 owner reflection: New York Oud is gloriously obnoxious and amazing; dramatic, forceful opening evolves into a captivating wear. Already owned."
+    "carnivalLine": "An opening that slaps you around, then settles into rich rose and wood.",
+    "keyNotes": "Plum, saffron, orange; rose, agarwood (oud), patchouli, orris; musk, white honey, vetiver.",
+    "accords": "oud, woody, floral, green/earthy, spicy, fruity, sweet/gourmand, leather/musk, citrus",
+    "impressions": "Gloriously obnoxious opening; evolves into gorgeous rose and woods. Cold-weather statement."
   },
   {
     "house": "Bond No. 9",
     "fragrance": "New York Sandalwood",
-    "notes": "Orris, carrot, cardamom; sandalwood, fig, papyrus; amber, musk, oakmoss.",
-    "impressions": "Overall: I enjoy this, it is a solid sandalwood blend but I can be a bit bored. Might try to mix and layer for entertainment."
+    "carnivalLine": "Comfortable sandalwood, perhaps waiting for a more mischievous layering partner.",
+    "keyNotes": "Orris, carrot, cardamom; sandalwood, fig, papyrus; amber, musk, oakmoss.",
+    "accords": "woody, green/earthy, spicy, fruity, leather/musk",
+    "impressions": "Pleasant sandalwood but a little boring; could be interesting layered."
   },
   {
     "house": "Bond No. 9",
     "fragrance": "Soho",
-    "notes": "Sweet orange, petitgrain, cassis; orange blossom, jasmine, orris; moss, cedar, vetiver, amber.",
-    "impressions": "Overall: This is very unisex and bright and sharp and very wearable like Insolent. It's deffo got green in it but florals that are proximate, well blended, not cloying. All weather."
+    "carnivalLine": "Bright green florals, beautifully blended and wearable in almost any weather.",
+    "keyNotes": "Sweet orange, petitgrain, cassis; orange blossom, jasmine, orris; moss, cedar, vetiver, amber.",
+    "accords": "woody, floral, green/earthy, sweet/gourmand, citrus",
+    "impressions": "Bright, green, sharp florals; unisex and easy to wear."
   },
   {
     "house": "Clue Perfumery",
     "fragrance": "With the Candlestick",
-    "notes": "Top notes are Cherry Communion Wine and Cinnamon Leaf; middle notes are Labdanum, Melted Wax and Burning Church Incense; base notes are Extinguished Candle and Hot Musk.",
-    "impressions": "Overall: Purchased 9/20/2026 after the paper test proved more wearable and compelling than expected. Smoky dry wood/fireplace, burnt embers and candle/incense atmosphere without tipping into the harshness of A City on Fire. A little sweet on the open but not as enduringly sweet as Blackmail. Really great fragrance. It's eating a cherry pie in church."
+    "carnivalLine": "A fireplace of dry wood, spent candles and glowing embers.",
+    "keyNotes": "Top notes are Cherry Communion Wine and Cinnamon Leaf; middle notes are Labdanum, Melted Wax and Burning Church Incense; base notes are Extinguished Candle and Hot Musk.",
+    "accords": "incense, spicy, leather/musk",
+    "impressions": "Smoky fireplace and incense, with a touch of cherry-pie sweetness."
   },
   {
     "house": "D’ORSAY",
     "fragrance": "Holy Berry",
-    "notes": "Strawberry-milk accord, cardamom, iris, jasmine, white oud, vanilla and sandalwood.",
-    "impressions": "Got the 10ML extrait and I swooned--the lactonic strawberry to oud transition is tangy and fun and not as serious as the bigger oud/spice/rose bombs.\n10 mL extrait received (confirmed October 15, 2026)."
+    "carnivalLine": "Tangy strawberry milk makes an unexpected turn toward oud.",
+    "keyNotes": "Strawberry-milk accord, cardamom, iris, jasmine, white oud, vanilla and sandalwood.",
+    "accords": "oud, woody, floral, spicy, sweet/gourmand",
+    "impressions": "Swooned over tangy, lactonic strawberry melting into oud."
   },
   {
     "house": "Dame Perfumery",
     "fragrance": "Lily of the Valley",
-    "notes": "Lily-of-the-valley (muguet); green, fresh, white-floral, lightly soapy/sweet.",
-    "impressions": "Overall: I like this soliflore."
+    "carnivalLine": "Lily of the valley, presented simply and without apology.",
+    "keyNotes": "Lily-of-the-valley (muguet); green, fresh, white-floral, lightly soapy/sweet.",
+    "accords": "floral, green/earthy, sweet/gourmand",
+    "impressions": "Enjoyable lily-of-the-valley soliflore."
+  },
+  {
+    "house": "elkhaldi studio",
+    "fragrance": "Civet Prestige - Light",
+    "carnivalLine": "Green aromatic spice and creamy sesame meet soft florals, restrained civet, and dark, earthy oud.",
+    "keyNotes": "Sesame, star anise, fennel, honeysuckle, osmanthus, pink pepper, champaca, civet and oud, including Sylheti oud. Light concentration; green, nutty, softly animalic.",
+    "accords": "oud, floral, green/earthy, spicy, sweet/gourmand, leather/musk",
+    "impressions": ""
   },
   {
     "house": "ELOREA",
     "fragrance": "JANG",
-    "notes": "Jinjang (aged soy sauce), charcoal, soybean; ylang-ylang, jasmine, jasmine sambac; Geogaia/petrichor effect, styrax, opoponax, myrrh, cistus.",
-    "impressions": "Overall: Purchased 9/20/2026. A genuinely unusual savory-smoky gourmand architecture: fermented soybean/jinjang and charcoal are softened by florals and resin rather than becoming food-like.\nPerformance: Purchased after store testing; full-wear notes TBD."
+    "carnivalLine": "Fermented soybean, charcoal, florals and resin: savory smoke made wearable.",
+    "keyNotes": "Jinjang (aged soy sauce), charcoal, soybean; ylang-ylang, jasmine, jasmine sambac; Geogaia/petrichor effect, styrax, opoponax, myrrh, cistus.",
+    "accords": "incense, smoky, marine/mineral, floral",
+    "impressions": "Unusual savory charcoal and fermented soybean, softened by floral resin."
+  },
+  {
+    "house": "Elorea",
+    "fragrance": "Hanok",
+    "carnivalLine": "Crisp Korean pine and airy florals drift into smoked cedar, incense, and the quiet texture of traditional paper.",
+    "keyNotes": "Top: Korean pine, juniper, bergamot, ivy. Heart: Magnolia, freesia, mimosa. Base: Smoked aged wood, upcycled cedarwood, hanji (Korean paper), incense. Aromatic, smoky, woody.",
+    "accords": "incense, smoky, woody, floral, citrus",
+    "impressions": ""
+  },
+  {
+    "house": "Elorea",
+    "fragrance": "Bae Frais",
+    "carnivalLine": "Juicy Korean pear and sparkling bergamot bloom into delicate blossoms, softened by creamy sandalwood and tonka.",
+    "keyNotes": "Top: Korean pear, bergamot, ambrette. Heart: Orange flower, nectar, Korean pear blossom. Base: Tonka, Akigalawood, sandalwood. Radiant fruity floral.",
+    "accords": "woody, floral, fruity, sweet/gourmand, citrus",
+    "impressions": ""
   },
   {
     "house": "Estée Lauder",
     "fragrance": "Spellbound — vintage miniature",
-    "notes": "Apricot/fruit/rosewood/rose/muguet/lemon; carnation, tuberose, cardamom, heliotrope, narcissus, orange blossom, jasmine/lily; amber, sandalwood, vanilla, opoponax, benzoin, civet, cedar, vetiver, musk.",
-    "impressions": "Inherited from mother 10/3/2026. 0.12 fl oz / 3.7 ml 'Perfume' miniature; likely 1990s/original-era formulation. Not yet fully tested."
+    "carnivalLine": "A vintage miniature inherited from Mom, with its secrets still intact.",
+    "keyNotes": "Apricot/fruit/rosewood/rose/muguet/lemon; carnation, tuberose, cardamom, heliotrope, narcissus, orange blossom, jasmine/lily; amber, sandalwood, vanilla, opoponax, benzoin, civet, cedar, vetiver, musk.",
+    "accords": "woody, floral, spicy, fruity, sweet/gourmand, leather/musk, citrus",
+    "impressions": ""
   },
   {
     "house": "Filippo Sorcinelli",
     "fragrance": "Opus 1144 — later Sorcinelli formulation",
-    "notes": "Elemi/citrus, iris, cashmere wood; vanilla, benzoin, ambergris, sandalwood, leather, musk.",
-    "impressions": "Received 10/3/2026 as the later formulation comparison bottle. Not yet fully tested; compare directly with the older UNUM version."
+    "carnivalLine": "A Sorcinelli formulation waiting for its comparison with the older original.",
+    "keyNotes": "Elemi/citrus, iris, cashmere wood; vanilla, benzoin, ambergris, sandalwood, leather, musk.",
+    "accords": "marine/mineral, woody, floral, sweet/gourmand, leather/musk, citrus",
+    "impressions": ""
   },
   {
     "house": "Fragonnard",
     "fragrance": "Belle De Nuit",
-    "notes": "Gardenia, ylang-ylang, mirabilis; rose, violet, geranium; plum, musk, woody notes.",
+    "carnivalLine": "A floral mystery still waiting for its first Carnival description.",
+    "keyNotes": "Gardenia, ylang-ylang, mirabilis; rose, violet, geranium; plum, musk, woody notes.",
+    "accords": "woody, floral, fruity, leather/musk",
     "impressions": ""
   },
   {
     "house": "Gissah",
     "fragrance": "Hudson Valley",
-    "notes": "Top: saffron, black currant; heart: rose; base: amber, patchouli. Accords: warm spicy, fruity, amber, woody, rose, metallic.",
-    "impressions": "Purchased in Paterson Oct 17, 2026 as part of Gissah Valley 3 × 50 ml set. Enjoyed in-store; individual wear test pending."
+    "carnivalLine": "A Gissah Valley discovery, enjoyed in-store and awaiting a full wear.",
+    "keyNotes": "Top: saffron, black currant; heart: rose; base: amber, patchouli",
+    "accords": "woody, floral, green/earthy, spicy, fruity",
+    "impressions": "Enjoyed in-store; full wear untested."
   },
   {
     "house": "Gissah",
     "fragrance": "Imperial Valley",
-    "notes": "Top: Sicilian bergamot, pink pepper, davana; heart: oud, white amber, rosemary; base: leather, musk, Haitian vetiver. Accords: aromatic, oud, leather, fresh spicy, animalic.",
-    "impressions": "Purchased in Paterson Oct 17, 2026 as part of Gissah Valley 3 × 50 ml set. Enjoyed in-store; individual wear test pending."
+    "carnivalLine": "A Gissah Valley discovery, enjoyed in-store and awaiting a full wear.",
+    "keyNotes": "Top: Sicilian bergamot, pink pepper, davana; heart: oud, white amber, rosemary; base: leather, musk, Haitian vetiver",
+    "accords": "oud, woody, floral, spicy, leather/musk, citrus",
+    "impressions": "Enjoyed in-store; full wear untested."
   },
   {
     "house": "Gissah",
     "fragrance": "La Luna Valley",
-    "notes": "Top: incense, raspberry, apricot; heart: cotton candy, guaiac wood, sandalwood; base: amberwood, tonka, patchouli. Accords: woody, amber, sweet, smoky, balsamic.",
-    "impressions": "Purchased in Paterson Oct 17, 2026 as part of Gissah Valley 3 × 50 ml set. Enjoyed in-store; individual wear test pending."
+    "carnivalLine": "A Gissah Valley discovery, enjoyed in-store and awaiting a full wear.",
+    "keyNotes": "Top: incense, raspberry, apricot; heart: cotton candy, guaiac wood, sandalwood; base: amberwood, tonka, patchouli",
+    "accords": "incense, smoky, woody, green/earthy, fruity, sweet/gourmand",
+    "impressions": "Enjoyed in-store; full wear untested."
+  },
+  {
+    "house": "Heretic Parfum",
+    "fragrance": "Black Salt",
+    "carnivalLine": "A brooding mineral composition of black pepper, salt, and smoky woods, evoking dark coastal air and weathered stone.",
+    "keyNotes": "Top: black pepper, lime, tangerine, eucalyptus. Heart: jasmine sambac, black water lily, Turkish rose, smoked sea salt. Base: seaweed, labdanum, petrichor",
+    "accords": "smoky, marine/mineral, floral, spicy, citrus",
+    "impressions": "Roasted smoky mineral salt and dark resin; skin test pending."
   },
   {
     "house": "Imaginary Authors",
     "fragrance": "Falling Into the Sea",
-    "notes": "Lemon, bergamot, grapefruit, lychee, tropical/exotic flowers, warm sand; bright citrus-floral aquatic.",
-    "impressions": "Overall: Citrusy, summery, very LA at the beach, really lovely but fades out too quickly."
+    "carnivalLine": "Sunlit citrus and a Los Angeles beach; lovely, if fleeting.",
+    "keyNotes": "Lemon, bergamot, grapefruit, lychee, tropical/exotic flowers, warm sand; bright citrus-floral aquatic.",
+    "accords": "marine/mineral, floral, fruity, citrus",
+    "impressions": "Lovely citrus beach scent; fades much too quickly."
   },
   {
     "house": "Initio Parfums Privés",
     "fragrance": "Atomic Rose",
-    "notes": "Rose, warm spice and amber/vanilla accents.",
-    "impressions": "5 mL decant received October 15, 2026. Previously recorded as in transit.\n5 mL received October 15, 2026."
+    "carnivalLine": "A rose awaiting its own proper wear test.",
+    "keyNotes": "Rose, warm spice and amber/vanilla accents.",
+    "accords": "floral, sweet/gourmand",
+    "impressions": ""
+  },
+  {
+    "house": "J-Scent",
+    "fragrance": "Koiame",
+    "carnivalLine": "Sparkling citrus and soft orchard fruits evoke the air before rain, blooming into violet, magnolia, and water lily over mossy cedar and musk.",
+    "keyNotes": "Top: apple, bergamot, blackcurrant, green notes, lemon, mandarin, peach. Heart: jasmine, magnolia, rose, violet, water lily. Base: musk, moss, cedarwood",
+    "accords": "marine/mineral, woody, floral, green/earthy, fruity, leather/musk, citrus",
+    "impressions": "Drydown improved considerably on paper."
   },
   {
     "house": "Jennifer Kirby",
     "fragrance": "Enamorar",
-    "notes": "Custom blend; composition not documented in public sources.",
-    "impressions": "Overall: One-of-a kind by me--tomato, honey notes. It is strange but fresh."
+    "carnivalLine": "Tomato and honey: strange, fresh, and entirely my own creation.",
+    "keyNotes": "Custom blend; composition not documented in public sources.",
+    "accords": "",
+    "impressions": "My own strange but fresh tomato-and-honey creation."
   },
   {
     "house": "Junaid Perfumes",
     "fragrance": "Abayer",
-    "notes": "Top: frankincense, pink pepper, saffron; heart: cardamom, geranium, jasmine, rose; base: oakmoss, oud, patchouli, sandalwood, vanilla, vetiver.",
-    "impressions": "10 ml decant purchased in Paterson Oct 17, 2026. Outrageous, strongly peppery opening; most differentiating fragrance smelled all day. Loved opening; evaluate drydown."
+    "carnivalLine": "An outrageous pepper blast—the most distinctive opening of the day.",
+    "keyNotes": "Top: frankincense, pink pepper, saffron; heart: cardamom, geranium, jasmine, rose; base: oakmoss, oud, patchouli, sandalwood, vanilla, vetiver.",
+    "accords": "incense, oud, woody, floral, green/earthy, spicy, sweet/gourmand",
+    "impressions": "Wildly peppery opening; loved its originality. Drydown needs testing."
   },
   {
     "house": "Junaid Perfumes",
     "fragrance": "Amethyst",
-    "notes": "Top: frankincense, hazelnut, orris, pear, pink pepper; heart: jasmine sambac, jasmine, saffron, rose, osmanthus; base: sandalwood, ambrette, citrus, ambergris, oud, vanilla. Accords: woody, white floral, warm spicy, amber, nutty.",
-    "impressions": "10 ml decant purchased in Paterson Oct 17, 2026. Guidance-family pear/hazelnut/incense composition; test against owned Guidance and Guidance 46. It's a moodier, oud-ier version of Guidance. Open is very similar."
+    "carnivalLine": "A darker, oud-ier cousin to Guidance, with pear and hazelnut up front.",
+    "keyNotes": "Top: frankincense, hazelnut, orris, pear, pink pepper; heart: jasmine sambac, jasmine, saffron, rose, osmanthus; base: sandalwood, ambrette, citrus, ambergris, oud, vanilla",
+    "accords": "incense, marine/mineral, oud, woody, floral, spicy, fruity, sweet/gourmand, citrus",
+    "impressions": "Moodier, oud-heavier take on Guidance; similar pear-hazelnut opening."
   },
   {
     "house": "Kannauj traditional attar",
     "fragrance": "Choya Nakh",
-    "notes": "Choya nakh / roasted seashell-char effect; smoke; sandalwood base",
-    "impressions": "Overall: Arrived 9/26/2026. Excellent solo and as a layering tool: a clear charred/smoky roasted-shell effect over a sandalwood base. Immediately useful because it makes the choya nakh signature recognizable in other compositions.\nWear evolution: Smoky, charred and mineral from the outset; the shell-roast effect stays legible rather than becoming generic wood.\nPerformance: Oil/attar wear; layering performance promising. Full solo longevity TBD."
+    "carnivalLine": "Charred, roasted seashells over sandalwood: smoke with a marine memory.",
+    "keyNotes": "Choya nakh / roasted seashell-char effect; smoke; sandalwood base",
+    "accords": "smoky, marine/mineral, woody",
+    "impressions": "Excellent smoky, charred seashell attar; distinctive layering tool."
   },
   {
     "house": "Kannauj traditional attars",
     "fragrance": "Mitti Attar",
-    "notes": "Traditional Kannauj attar: baked clay/earth distilled into sandalwood oil. Petrichor, wet earth, mineral clay, faint smoke, creamy sandalwood.",
-    "impressions": "Received by 10/3/2026. Owned but not yet fully tested. Purchased as a literal natural-material calibration for petrichor/wet-earth/mineral-clay effects rather than another conceptual rain fragrance. Full spray/wear notes TBD."
+    "carnivalLine": "Wet earth and clay, bottled as a literal lesson in petrichor.",
+    "keyNotes": "Traditional Kannauj attar: baked clay/earth distilled into sandalwood oil. Petrichor, wet earth, mineral clay, faint smoke, creamy sandalwood.",
+    "accords": "smoky, marine/mineral, woody",
+    "impressions": "Purchased as a reference for true petrichor and wet earth; untested."
   },
   {
     "house": "Kerosene",
     "fragrance": "Blackmail",
-    "notes": "Oud, vanilla, amber, sandalwood, raspberry, plum, musk. Smoky dark-fruit amber/oud.",
-    "impressions": "Purchased 10/3/2026 after repeated paper/drydown testing. Huge smoke with dark fruit and woods; repeatedly compelling and clearly beats lighter smoke options tested the same day."
+    "carnivalLine": "Huge smoke, dark fruit and wood: no half-measures here.",
+    "keyNotes": "Oud, vanilla, amber, sandalwood, raspberry, plum, musk. Smoky dark-fruit amber/oud.",
+    "accords": "smoky, oud, woody, fruity, sweet/gourmand, leather/musk",
+    "impressions": "Huge dark-fruit smoke and woods; compelling."
   },
   {
     "house": "Lattafa",
     "fragrance": "Atlas",
-    "notes": "Powerful salty mineral marine/aquatic.",
-    "impressions": "Ameer 10/13: LOVED it; salty, forceful mineral marine close to Seashell and Turkuaz. Bought 10 mL decant and subsequently a full bottle cheaply (per Ameer visit notes). Full bottle receipt still unconfirmed.\n10 mL decant received October 15, 2026. Separately purchased full bottle: receipt not confirmed.\n10/22/2026: Full bottle received; I now have both the 10 mL and the full bottle. Wore it from the 10 mL this morning: outstanding, real beast mode. Smells very similar to Megamare. Beautiful gentle finish after many, many hours. Must be careful not to overspray."
+    "carnivalLine": "Salty, forceful mineral sea air; an unapologetic marine statement.",
+    "keyNotes": "Powerful salty mineral marine/aquatic.",
+    "accords": "marine/mineral",
+    "impressions": "Love: forceful salty marine, Megamare-like; enormous longevity. Do not overspray."
   },
   {
     "house": "Lattafa",
     "fragrance": "Bade’e Al Oud Honor & Glory",
-    "notes": "Pineapple, fruity sweetness, soft powdery woody drydown (per skin impression).",
-    "impressions": "10/13: fun, novel pineapple opening; sharp initially, softens and turns powdery. Bought 10 mL; test long wear.\n10 mL decant received October 15, 2026."
+    "carnivalLine": "A playful pineapple burst that softens into something powdery.",
+    "keyNotes": "Pineapple, fruity sweetness, soft powdery woody drydown (per skin impression).",
+    "accords": "woody, fruity, sweet/gourmand",
+    "impressions": "Fun pineapple opening; sharp, then softer and powdery."
+  },
+  {
+    "house": "Lattafa",
+    "fragrance": "Bade’e Al Oud Oud for Glory",
+    "carnivalLine": "Dense saffron and nutmeg unfold into dark, resinous oud, patchouli, and musk, creating a powerful, shadowy warmth.",
+    "keyNotes": "Saffron, nutmeg, lavender; oud, patchouli; oud, patchouli, musk.",
+    "accords": "oud, green/earthy, spicy, leather/musk",
+    "impressions": ""
+  },
+  {
+    "house": "Lattafa",
+    "fragrance": "Bade’e Al Oud Sublime",
+    "carnivalLine": "Lush apple and lychee spill into a bright floral heart, settling into sweet woods, vanilla, and soft musk.",
+    "keyNotes": "Apple, lychee, rose; plum, jasmine; vanilla, moss, patchouli.",
+    "accords": "floral, green/earthy, fruity, sweet/gourmand",
+    "impressions": ""
   },
   {
     "house": "Loris Parfum",
     "fragrance": "Sultan's Magic",
-    "notes": "Saffron, cinnamon, cardamom, oud, Turkish rose, patchouli, amber, leather, sandalwood, labdanum.",
-    "impressions": "Full bottle received October 13, 2026 (Mercari). Very positive on arrival; it wears lovely. Moderately heavy but not beast, it's a nice in-between arabian style frag, I can feel the saffron and spice and I really like it."
+    "carnivalLine": "Saffron and spice in a generous, wearable Arabian register.",
+    "keyNotes": "Saffron, cinnamon, cardamom, oud, Turkish rose, patchouli, amber, leather, sandalwood, labdanum.",
+    "accords": "oud, woody, floral, green/earthy, spicy, leather/musk",
+    "impressions": "Lovely moderate-weight saffron and spice; easy Arabian-style wear."
+  },
+  {
+    "house": "Lupus & Vega",
+    "fragrance": "Oud Brotherhood",
+    "carnivalLine": "Beautiful extrait blend with cardamom, pink peppercorn, saffron, civet. Got at ScentExpo.",
+    "keyNotes": "Artisanal oud-heavy perfume oil/absolute with resins. Your cardamom, pink pepper, saffron and civet notes should remain recorded as your ScentExpo description pending independent verification.",
+    "accords": "oud, spicy",
+    "impressions": ""
+  },
+  {
+    "house": "Lupus & Vega",
+    "fragrance": "Respect & Reverence",
+    "carnivalLine": "A dusky, contemplative frankincense composition with an austere elegance and a quietly unsettling edge.",
+    "keyNotes": "Frankincense / incense",
+    "accords": "incense",
+    "impressions": ""
   },
   {
     "house": "Maison Crivelli",
     "fragrance": "Oud Maracujá",
-    "notes": "Passion fruit, oud, saffron, rose, leather, amber.",
-    "impressions": "5 mL decant received October 15, 2026. Previously recorded as in transit.\n5 mL received October 15, 2026."
+    "carnivalLine": "A passion-fruit oud still awaiting a proper personal verdict.",
+    "keyNotes": "Passion fruit, oud, saffron, rose, leather, amber.",
+    "accords": "oud, floral, spicy, fruity, leather/musk",
+    "impressions": ""
+  },
+  {
+    "house": "Maison Margiela REPLICA",
+    "fragrance": "Lost Eden",
+    "carnivalLine": "Candied red apple melts into sultry vanilla and smoky oud, balancing forbidden-fruit sweetness with a dark, woody undertow.",
+    "keyNotes": "Candied red apple, vanilla, smoky oud accord.",
+    "accords": "smoky, oud, fruity, sweet/gourmand",
+    "impressions": "Gorgeous fruit with an unusual Play-Doh facet."
   },
   {
     "house": "Mancera",
     "fragrance": "Instant Crush",
-    "notes": "Saffron, ginger, Sicilian mandarin, Sicilian bergamot; Moroccan rose, Egyptian jasmine, amberwood, Indonesian patchouli; sandalwood, oakmoss, white musk, Madagascar vanilla.",
-    "impressions": "Full bottle received (confirmed October 12, 2026). It was a nice wear, not super heavy but again--the saffron note. I seem to go crazy for it. It feels lower stakes and I could see burning through it more since I like it, it doesn't overwhelm, it's soft on the drydown and it wasn't crazy expensive."
+    "carnivalLine": "A softer, lower-stakes saffron pleasure with an easygoing glow.",
+    "keyNotes": "Saffron, ginger, Sicilian mandarin, Sicilian bergamot; Moroccan rose, Egyptian jasmine, amberwood, Indonesian patchouli; sandalwood, oakmoss, white musk, Madagascar vanilla.",
+    "accords": "woody, floral, green/earthy, spicy, sweet/gourmand, leather/musk, citrus",
+    "impressions": "Soft, approachable saffron; enjoyable without overwhelming."
   },
   {
     "house": "Matière Première",
     "fragrance": "Crystal Saffron Extrait de Parfum",
-    "notes": "Saffron, musky amber, incense; extrait formulation.",
-    "impressions": "5 mL decant received October 15, 2026.\n10/20/2026 wear: SHARP. Very neat, but so sharp it feels almost synthetic. Intense and long-lasting; few sprays are needed. I enjoy it, but feel it needs a floral or amber layer to soften the edge. Probably would not repurchase after using what I have. But this is very well done for the effect--perfume for robots."
+    "carnivalLine": "Crystal-sharp saffron with a nearly synthetic edge; powerful in small doses.",
+    "keyNotes": "Saffron, musky amber, incense; extrait formulation.",
+    "accords": "incense, spicy, leather/musk",
+    "impressions": "Extremely sharp, intense and long-lasting; needs floral or amber softening."
+  },
+  {
+    "house": "Melloculab",
+    "fragrance": "Black Omen",
+    "carnivalLine": "Sharp, smoky Tarakan oud and green herbs collide with dark honey, tobacco, leather, and warm balsamic resins.",
+    "keyNotes": "Tarakan oud, thyme, honey, iris, lavender, caramel, tobacco, benzoin. Smoky, animalic, balsamic. Extrait de Parfum.",
+    "accords": "smoky, oud, floral, sweet/gourmand, leather/musk",
+    "impressions": ""
   },
   {
     "house": "Montale",
     "fragrance": "Arabians Tonka",
-    "notes": "Top notes are Saffron and Bergamot; middle notes are Agarwood (Oud) and Bulgarian Rose; base notes are Tonka Bean, Sugar Cane, Amber, White Musk and Oakmoss.",
-    "impressions": "Ordered online for sale barely used. A fun, oud/rose with a sharpness on the back end that I really like. An easy, lower pressure oud wear, if that makes sense. The base notes do mellow it out."
+    "carnivalLine": "Rose and oud with a sharp little sting at the end.",
+    "keyNotes": "Top notes are Saffron and Bergamot; middle notes are Agarwood (Oud) and Bulgarian Rose; base notes are Tonka Bean, Sugar Cane, Amber, White Musk and Oakmoss.",
+    "accords": "oud, floral, green/earthy, spicy, sweet/gourmand, leather/musk, citrus",
+    "impressions": "Fun, sharp rose-oud; an easy, lower-pressure oud."
   },
   {
     "house": "Nasomatto",
     "fragrance": "Micodelirio",
-    "notes": "Mushroom/fungal, earthy, green-mossy and solvent-like facets; deliberately strange, dense and organic.",
-    "impressions": "Overall: Bottle arrived 9/30/2026 and the skin test is a huge success. Extremely mushroomy, crazy and amazing. On skin it sits one hair's breadth short of obnoxious, but instead of tipping over it becomes profoundly earthy: 'I am in the earth, I am OF the earth.' The fungal/soil wrongness is the point, not a flaw.\nWear evolution: Immediate mushroom/fungal earthiness with a confrontational edge; on skin the aggression resolves into immersive damp-earth materiality rather than becoming merely harsh."
+    "carnivalLine": "Mushrooms, mushrooms, mushrooms: not just in the earth, but of it.",
+    "keyNotes": "Mushroom/fungal, earthy, green-mossy and solvent-like facets; deliberately strange, dense and organic.",
+    "accords": "green/earthy",
+    "impressions": "Extraordinary mushroomy earth; confrontational yet beautifully immersive."
+  },
+  {
+    "house": "Neandertal",
+    "fragrance": "Neandertal Light",
+    "carnivalLine": "An icy burst of cut greens and metallic rose, sharpening into industrial orris before settling into mineral woods, leather, and musk.",
+    "keyNotes": "Top: Hinoki, coriander, galbanum, violet leaf. Heart: Orris, metallic accord. Base: Ambergris, patchouli, leather, cedar, musk. EDP; perfumer Chris Maurice.",
+    "accords": "marine/mineral, woody, floral, green/earthy, leather/musk",
+    "impressions": "Phenomenal on skin; surprisingly substantial and long-lasting."
   },
   {
     "house": "Niki de Saint Phalle",
     "fragrance": "Niki de Saint Phalle",
-    "notes": "Artemisia, green notes, mint, bergamot, peach; carnation, patchouli, orris, rose, cedar, ylang-ylang, jasmine; oakmoss, leather, sandalwood, musk, amber.",
-    "impressions": "Overall: OMG so so unique and eccentric and bright with a touch of mint--not a toothpaste mint. Just really statement. Trippy chypre. So, so special and like nothing else I have. Not always in the mood but this one is on the short list. The parfum has more depth and a less confrontational opening but they are all amazing."
+    "carnivalLine": "A bright, eccentric, faintly minty chypre that bites back.",
+    "keyNotes": "Artemisia, green notes, mint, bergamot, peach; carnation, patchouli, orris, rose, cedar, ylang-ylang, jasmine; oakmoss, leather, sandalwood, musk, amber.",
+    "accords": "woody, floral, green/earthy, fruity, leather/musk, citrus",
+    "impressions": "Brilliant eccentric minty chypre; unique, but mood-dependent."
   },
   {
     "house": "Pacifica",
     "fragrance": "French Lilac",
-    "notes": "Lilac, hyacinth, heliotrope, magnolia petals, ylang-ylang, nectarine; fresh green floral with powdery sweetness.",
-    "impressions": "Overall: I like certain soliflores, and Lilac is among my favorites."
+    "carnivalLine": "Lilac in its own uncomplicated, lovely voice.",
+    "keyNotes": "Lilac, hyacinth, heliotrope, magnolia petals, ylang-ylang, nectarine; fresh green floral with powdery sweetness.",
+    "accords": "floral, green/earthy, sweet/gourmand",
+    "impressions": "Lilac is a favorite soliflore."
   },
   {
     "house": "Penhaligon's",
     "fragrance": "Babylon",
-    "notes": "Nutmeg, saffron, coriander; cypriol/nagarmotha; vanilla, sandalwood, cedar.",
+    "carnivalLine": "A Penhaligon’s mystery awaiting a proper personal impression.",
+    "keyNotes": "Nutmeg, saffron, coriander; cypriol/nagarmotha; vanilla, sandalwood, cedar.",
+    "accords": "woody, spicy, sweet/gourmand",
     "impressions": ""
   },
   {
     "house": "Penhaligon's",
     "fragrance": "Bold Blend",
-    "notes": "Peppermint, black pepper; violet leaf, clary sage; palo santo, cypress, cypriol.",
+    "carnivalLine": "A Penhaligon’s mystery awaiting a proper personal impression.",
+    "keyNotes": "Peppermint, black pepper; violet leaf, clary sage; palo santo, cypress, cypriol.",
+    "accords": "floral, spicy",
     "impressions": ""
   },
   {
     "house": "Penhaligon's",
     "fragrance": "Lothair",
-    "notes": "Juniper, cardamom, fig leaf, bergamot, grapefruit; fig tree, lavender, black tea, geranium; vanilla, woods, cedar, ambergris, musk, oakmoss.",
-    "impressions": "Overall: A weird edge case in the collection: I have always found it very wearable, unisex and odd. The opening is fairly bright and takes me a second to calibrate to, which is part of its character.\nWear evolution: Fairly bright opening; takes a moment of recalibration rather than reading as immediately familiar. → Once calibrated, it reads as wearable, unisex and pleasantly odd."
+    "carnivalLine": "Bright, slightly odd and comfortably unisex; it takes a moment to calibrate.",
+    "keyNotes": "Juniper, cardamom, fig leaf, bergamot, grapefruit; fig tree, lavender, black tea, geranium; vanilla, woods, cedar, ambergris, musk, oakmoss.",
+    "accords": "marine/mineral, woody, green/earthy, spicy, fruity, sweet/gourmand, leather/musk, citrus",
+    "impressions": "Bright, odd, unisex and very wearable after the initial adjustment."
   },
   {
     "house": "Penhaligon's",
     "fragrance": "Vaara",
-    "notes": "Quince, rose water, saffron, coriander, carrot seed; rose, peony, magnolia, freesia; honey, white musk, cedar, sandalwood, benzoin, tonka.",
-    "impressions": "Overall: Floral, heavy, feels very Indian, opluent. Feminine, among the most so in my collection and while it is very different that Guidance, it has that same fruity, suck-you-in quality. It lasts but it does not dominate like NdP or NY Oud."
+    "carnivalLine": "Opulent, fruit-laced florals with an unmistakably Indian atmosphere.",
+    "keyNotes": "Quince, rose water, saffron, coriander, carrot seed; rose, peony, magnolia, freesia; honey, white musk, cedar, sandalwood, benzoin, tonka.",
+    "accords": "woody, floral, spicy, sweet/gourmand, leather/musk",
+    "impressions": "Opulent, heavy Indian-style fruity floral; feminine and lasting."
   },
   {
     "house": "Régalien",
     "fragrance": "Turkuaz",
-    "notes": "Top notes are Sea water, Ozonic notes, Saffron and Artemisia; middle notes are Seaweed, Cassis and Turkish Rose; base notes are Oakmoss, Ambroxan and Amber.",
-    "impressions": "Overall: Blew my little mind. It invades and hangs around forever--artemis to blame! Amazing, marine, but wilder. Sophisticated marine + Middle Eastern; paper can feel strident, but skin softened it and kept pulling me back. Wear evolution: SKIN TESTED AND LOVED IT. → the artemnesia is LOUD! 10/8/2026 extended skin wear: extraordinary persistent sharp marine minerality with metallic and convincing amberg ris-like depth; emphatically NOT an Aqua Velva / conventional masculine aquatic effect. Repeatedly drawn back to smell arm hours later. Drydown remains intensely satisfying; longevity is a major strength. Strong owned-collection benchmark for magnetic, lasting scent. I will likely burn through this."
+    "carnivalLine": "A wild metallic sea, fierce on paper and irresistible on skin.",
+    "keyNotes": "Top notes are Sea water, Ozonic notes, Saffron and Artemisia; middle notes are Seaweed, Cassis and Turkish Rose; base notes are Oakmoss, Ambroxan and Amber.",
+    "accords": "floral, green/earthy, spicy",
+    "impressions": "Wild metallic marine mineral; magnetic, extremely persistent and sophisticated."
   },
   {
     "house": "Scents of Wood",
     "fragrance": "Cedar in Acacia",
-    "notes": "Ginger oil, cinnamon bark, cypriol heart, orris concrete, olibanum hyperabsolute, Cedramber.",
-    "impressions": "Overall: Travel size purchased 9/20/2026. Woody-spicy/resinous with a bright ginger-cinnamon lift and an olibanum/cedramber base; bought as a wearable wood/incense lane rather than another heavy oud. The hinoki/cypress/incense profile stays soft rather than maximalist, but the material quality and calm woody atmosphere are compelling enough that low projection does not bother me. \nWear evolution: Gentle foresty hinoki/cypress, crisp green wood and incense; immediately beautiful on skin. → Stays soft, woody and meditative with a sharper dry facet underneath; never becomes heavy. Performance: Low projection; I spray generously. Despite the quiet wear, the scent itself is a Love and full-bottle worthy. A good gentle bedtime scent."
+    "carnivalLine": "Bright ginger and cinnamon flicker over soft, resinous wood.",
+    "keyNotes": "Ginger oil, cinnamon bark, cypriol heart, orris concrete, olibanum hyperabsolute, Cedramber.",
+    "accords": "incense, spicy",
+    "impressions": "Gentle ginger-spiced woods and incense; quiet, meditative bedtime favorite."
   },
   {
     "house": "Scents of Wood",
     "fragrance": "Hinoki in Hinoki",
-    "notes": "Cypress, Peruvian pepper/Shinus molle, white thyme, clove leaf, olibanum oil and absolute, Texas cedar, moss, Cashmeran.",
-    "impressions": "Overall: Travel size purchased 9/20/2026; full wear 9/24/2026. Fabulous on skin: gentle, foresty and beautifully composed."
+    "carnivalLine": "A gentle forest of hinoki and incense; beautiful on skin.",
+    "keyNotes": "Cypress, Peruvian pepper/Shinus molle, white thyme, clove leaf, olibanum oil and absolute, Texas cedar, moss, Cashmeran.",
+    "accords": "incense, woody, green/earthy, spicy",
+    "impressions": "Gorgeous gentle forest woods; beautifully composed."
   },
   {
     "house": "Shaheen",
     "fragrance": "Denaoud XX A",
-    "notes": "Pure agarwood (oud); woody, balsamic, leathery, animalic, smoky/medicinal facets can vary markedly by batch and origin.",
-    "impressions": "Overall: OMG. Cornerstone oud blend--can be worn alone or as a base. This is signature for me. Not as barnyardy as other samples I have, so it is a bit more versatile. Can"
+    "carnivalLine": "A cornerstone oud: deep, versatile, unmistakably mine.",
+    "keyNotes": "Pure agarwood (oud); woody, balsamic, leathery, animalic, smoky/medicinal facets can vary markedly by batch and origin.",
+    "accords": "smoky, oud, woody, leather/musk",
+    "impressions": "Cornerstone signature oud; versatile solo or as a layering base."
   },
   {
     "house": "Shaheen",
     "fragrance": "Denaoud XX Maliki",
-    "notes": "Pure agarwood (oud); woody, balsamic, leathery, animalic, smoky and medicinal facets vary by batch and origin.",
-    "impressions": "Overall: Sibling to Denaoud XX A, my cornerstone 1/Love — pure agarwood with woody, balsamic, leathery, animalic and smoky/medicinal facets that vary by batch."
+    "carnivalLine": "Pure agarwood with leathery, smoky, balsamic and animalic possibilities.",
+    "keyNotes": "Pure agarwood (oud); woody, balsamic, leathery, animalic, smoky and medicinal facets vary by batch and origin.",
+    "accords": "smoky, oud, woody, leather/musk",
+    "impressions": "Closely related to Denaoud XX A: woody, balsamic and leathery oud."
   },
   {
     "house": "Simone Andreoli",
     "fragrance": "Ocean of a Midnight Moon",
-    "notes": "Ozonic and marine notes, bergamot, grapefruit, lemon, mandarin, petitgrain; juniper, mint, Moroccan artemisia, myrtle; balsam fir, oakmoss, driftwood, patchouli, suede.",
-    "impressions": "Overall: Travel size purchased 9/20/2026. Fresh aquatic but with enough dark green/woody structure to avoid a generic blue-fragrance effect; a practical marine lane with depth. Final strip re-check 9/25: gorgeous, intensely marine and seashell-like, very close to the WAMAQ Seashell pleasure center. Extremely glad I bought it.\nWear evolution: Deep drydown stayed unmistakably marine, dry and seashell-like rather than turning generic blue.\nPerformance: PURCHASE VALIDATED; strong marine Love."
+    "carnivalLine": "Midnight sea air with a dark-green, seashell-like undertow.",
+    "keyNotes": "Ozonic and marine notes, bergamot, grapefruit, lemon, mandarin, petitgrain; juniper, mint, Moroccan artemisia, myrtle; balsam fir, oakmoss, driftwood, patchouli, suede.",
+    "accords": "marine/mineral, green/earthy, fruity, leather/musk, citrus",
+    "impressions": "Deep marine green woods with a dry seashell finish; strong love."
   },
   {
     "house": "SWID Perfumery",
     "fragrance": "Custom Decision Clone",
-    "notes": "Custom clone inspired by Amouage Decision. Reference fragrance notes only; SWID formula not verified.",
-    "impressions": "50 ml custom Amouage Decision clone purchased at SWID in Paterson on October 17, 2026. Smelled quite good and convincing in-store. Compare against original Decision; custom formula and exact notes unverified."
+    "carnivalLine": "A convincing custom echo of Decision, awaiting a side-by-side trial.",
+    "keyNotes": "Custom clone inspired by Amouage Decision. Reference fragrance notes only; SWID formula not verified.",
+    "accords": "",
+    "impressions": "Convincing Decision-inspired scent in-store; compare side by side."
   },
   {
     "house": "Swiss Arabian",
     "fragrance": "Patchouli 01",
-    "notes": "Sweet patchouli; specific variant/official notes unverified.",
-    "impressions": "10/13: distinctly unusual, sweet and pleasant. Bought 10 mL. Verify exact product on vial.\n10 mL decant received October 15, 2026."
+    "carnivalLine": "Sweet, unusual patchouli with a pleasant little twist.",
+    "keyNotes": "Sweet patchouli; specific variant/official notes unverified.",
+    "accords": "green/earthy, sweet/gourmand",
+    "impressions": "Unusually sweet and pleasant; exact version needs confirming."
   },
   {
     "house": "Tijon",
     "fragrance": "La Savane",
-    "notes": "Orange blossom, bergamot, grapefruit and citrus; jasmine, rose, tuberose and other florals; musk, sandalwood, vetiver, spice, amber.",
-    "impressions": "Overall: Very light and beachy with some depth; bought in Saint Maarten. It holds that nostalgia and it is pretty but it is not a statement perfume."
+    "carnivalLine": "A light beach memory from Saint Maarten, pretty rather than declarative.",
+    "keyNotes": "Orange blossom, bergamot, grapefruit and citrus; jasmine, rose, tuberose and other florals; musk, sandalwood, vetiver, spice, amber.",
+    "accords": "woody, floral, fruity, leather/musk, citrus",
+    "impressions": "Light, beachy, nostalgic and pretty; not a statement fragrance."
   },
   {
     "house": "Tom Ford",
     "fragrance": "Black Orchid",
-    "notes": "Truffle, gardenia, blackcurrant, ylang-ylang, jasmine, bergamot, mandarin, Amalfi lemon; orchid, spices, gardenia, fruity notes, lotus; Mexican chocolate, patchouli, vanilla, incense, amber, sandalwood, vetiver, white musk.",
-    "impressions": "This slays me. Best thing TF ever did thus far. It has that disturbing truffle open wwhich turns fruity and woody and I freaking love it."
+    "carnivalLine": "Disturbing truffle turns fruity and woody. Absolutely glorious.",
+    "keyNotes": "Truffle, gardenia, blackcurrant, ylang-ylang, jasmine, bergamot, mandarin, Amalfi lemon; orchid, spices, gardenia, fruity notes, lotus; Mexican chocolate, patchouli, vanilla, incense, amber, sandalwood, vetiver, white musk.",
+    "accords": "incense, woody, floral, green/earthy, fruity, sweet/gourmand, leather/musk, citrus",
+    "impressions": "Love the unsettling truffle opening evolving into fruit and woods."
   },
   {
     "house": "WAMAQ",
     "fragrance": "Seashell",
-    "notes": "Bergamot, cardamom, olibanum; Azerbaijan rose, magnolia, seawater, salt; Haitian vetiver, patchouli, choya nakh/seashell, musk, white ambergris.",
-    "impressions": "Purchased 10/3/2026 after prior successful testing. Sharp, dry, haunted marine profile; hot-sun-by-the-water rather than vacation beach. Choya nakh gives the roasted-shell/smoky-oceanic dimension. Immediate re-spray after purchase confirmed strong satisfaction. Seashell is blowing my mind; choya nakh-driven roasted-shell marine character remains a standout, strongly loved acquisition."
+    "carnivalLine": "A dry, haunted seashore: hot sun, sharp minerals and roasted shells.",
+    "keyNotes": "Bergamot, cardamom, olibanum; Azerbaijan rose, magnolia, seawater, salt; Haitian vetiver, patchouli, choya nakh/seashell, musk, white ambergris.",
+    "accords": "incense, marine/mineral, woody, floral, green/earthy, spicy, leather/musk, citrus",
+    "impressions": "Mind-blowing sharp, smoky, roasted-shell marine; haunted and sun-baked."
+  },
+  {
+    "house": "Zoologist",
+    "fragrance": "Elephant (Sanctuary Edition)",
+    "carnivalLine": "Spiced Earl Grey and mate tea open into jasmine, tuberose, and osmanthus, settling into creamy sandalwood, powdery orris, and supple suede.",
+    "keyNotes": "Top: Earl Grey tea, mate, pink pepper, cardamom, nutmeg. Heart: Indian jasmine, Indian tuberose, osmanthus, Turkish rose. Base: sandalwood, suede, orris root, cypriol.",
+    "accords": "woody, floral, spicy, green/earthy, leather/musk, powdery",
+    "impressions": ""
+  },
+  {
+    "house": "Zoologist",
+    "fragrance": "Elephant",
+    "carnivalLine": "A lush, humid green canopy of crushed leaves, Darjeeling tea, and coconut milk unfolds into earthy woods, creamy sandalwood, and musky amber, evoking the dense, tangled vegetation of a tropical forest.",
+    "keyNotes": "Green leaves, tea, coconut milk, cocoa, sandalwood, incense, musk.",
+    "accords": "incense, woody, green/earthy, leather/musk",
+    "impressions": "Wearable green original with a strange electronic drydown."
   }
 ]
